@@ -1,0 +1,7 @@
+.lock*
+.waf3-*
+waf3-*
+*.swp
+.ccls-cache
+
+build
