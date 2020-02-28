@@ -1,0 +1,18 @@
+{
+	"type":"stlib",
+	"unity_build":false,
+	"name":"LotusCommon",
+	"target":"LotusCommon",
+	"version":"0.0.0",
+
+	"rpath":["$ORIGIN"],
+
+	"use":["EASTL", "LotusEASTLSupport"],
+	"uselib":[],
+
+	"includes":[],
+	"export_includes":["3rdparty/expected/include"],
+	"export_force_includes":[],
+
+	"sources":[]
+}
