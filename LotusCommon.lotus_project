@@ -10,9 +10,12 @@
 	"use":["EASTL", "LotusEASTLSupport"],
 	"uselib":[],
 
-	"includes":[],
-	"export_includes":["3rdparty/expected/include"],
+	"includes":["include/LotusCommon"],
+	"export_includes":["include", "3rdparty/expected/include"],
 	"export_force_includes":[],
 
-	"sources":[]
+	"sources":
+	[
+		"source/Exceptions/exceptions.cpp"
+	]
 }
