@@ -13,7 +13,7 @@ class LOTUSCOMMON_API RuntimeError
 {
 public:
 	explicit RuntimeError(eastl::string const &error);
-	virtual ~RuntimeError() noexcept = default;
+	virtual ~RuntimeError() noexcept;
 
 	char const *what() const noexcept;
 

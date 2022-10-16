@@ -14,6 +14,8 @@ char const *RuntimeError::what() const noexcept
 	return message.c_str();
 }
 
+RuntimeError::~RuntimeError() noexcept = default;
+
 InvalidArgument::~InvalidArgument() noexcept = default;
 
 NotImplemented::~NotImplemented() noexcept = default;
